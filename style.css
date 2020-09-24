@@ -1,0 +1,98 @@
+* {
+  text-align: center;
+}
+
+body {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #282828;
+}
+
+.header-text {
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.youTube {
+  margin-top: 10%;
+  background-color: #ff0000;
+}
+.youTube h1 {
+  color: #282828;
+}
+
+.vimeo {
+  margin-top: 10%;
+  background-color: black;
+}
+.vimeo h1 {
+  color: #19b7ea;
+}
+
+.footer-text {
+  color: #ff0000;
+  font-size: 30px;
+}
+a {
+  color: #ff0000;
+}
+.URL-input,
+.URL-input-vimeo .convert-button {
+  font-size: 1.3em;
+  padding: 5px 10px;
+}
+
+.URL-input,
+.URL-input-vimeo {
+  margin: auto;
+  border-radius: 4px 0px 0px 4px;
+  width: 20em;
+  text-align: left;
+  border: 2px solid #eeeeee;
+  background: #eeeeee;
+  outline: none;
+}
+
+.URL-input:focus {
+  border: 2px solid #0485ff;
+}
+
+.convert-button {
+  margin: 2% auto;
+  border: 2px solid #0485ff;
+  background: #0485ff;
+  color: white;
+  transition: 0.15s;
+}
+
+.convert-button:hover {
+  background: #016acc;
+  border-color: #016acc;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+
+  .URL-input,
+  .URL-input-vimeo {
+    margin: auto;
+    width: 50%;
+  }
+
+  .convert-button {
+    margin: 7% auto;
+    width: 100%;
+  }
+}
+
+.opt {
+  width: 20vw;
+  margin: 2% auto;
+  padding: 4px;
+  border-radius: 7%;
+}
